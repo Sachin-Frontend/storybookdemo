@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ImageComponent implements OnInit {
 
 
-  @Input() imgSrc:string = '/assets/img2.jpg';
+  @Input() imgSrc:string = 'assets/img2.jpg';
 
   @Input() altTxt?: string="Hey how Are You....";
 

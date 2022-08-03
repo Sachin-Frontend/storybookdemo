@@ -270,7 +270,7 @@
         },
         {
             "name": "ImageComponent",
-            "id": "component-ImageComponent-bbc657737b391f31f23394081bbe620b261dab25671d3b916fd7e60293488508ce0584919380744676d493f48f2161b01709f16710a20d6b498c8826e4ba9222",
+            "id": "component-ImageComponent-9698ab14938f041f463b9ebf0550f36b353e380a10cff6478ebda70384b8c01c6c7690ce6eafe289ca204d4e60d843c1a3777b94a3ea4891095b22593a400d3b",
             "file": "src/app/image/image.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -316,7 +316,7 @@
                 },
                 {
                     "name": "imgSrc",
-                    "defaultValue": "'/assets/img2.jpg'",
+                    "defaultValue": "'assets/img2.jpg'",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "line": 11,
@@ -345,7 +345,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-image',\n  templateUrl: './image.component.html',\n  styleUrls: ['./image.component.css']\n})\nexport class ImageComponent implements OnInit {\n\n\n  @Input() imgSrc:string = '/assets/img2.jpg';\n\n  @Input() altTxt?: string=\"Hey how Are You....\";\n\n  @Input() figCaptionTxt?:string = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum';\n\n\n  @Input() imgOpacity?: number = 1\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-image',\n  templateUrl: './image.component.html',\n  styleUrls: ['./image.component.css']\n})\nexport class ImageComponent implements OnInit {\n\n\n  @Input() imgSrc:string = 'assets/img2.jpg';\n\n  @Input() altTxt?: string=\"Hey how Are You....\";\n\n  @Input() figCaptionTxt?:string = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum';\n\n\n  @Input() imgOpacity?: number = 1\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
