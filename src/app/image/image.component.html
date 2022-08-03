@@ -1,0 +1,9 @@
+<figure>
+    <img [src]="imgSrc" [alt]="altTxt" [ngStyle]="{opacity:imgOpacity}" width="100%" >
+
+
+    <figcaption *ngIf="figCaptionTxt && figCaptionTxt.trim().length > 0 " >
+        {{figCaptionTxt}}
+    </figcaption>
+</figure>
+
